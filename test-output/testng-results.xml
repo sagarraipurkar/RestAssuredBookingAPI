@@ -2,12 +2,12 @@
 <testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-08T09:59:04 IST" name="Default suite" finished-at="2025-04-08T09:59:09 IST" duration-ms="4745">
+  <suite started-at="2025-04-10T13:22:33 IST" name="Default suite" finished-at="2025-04-10T13:22:38 IST" duration-ms="5284">
     <groups>
     </groups>
-    <test started-at="2025-04-08T09:59:04 IST" name="Default test" finished-at="2025-04-08T09:59:09 IST" duration-ms="4745">
+    <test started-at="2025-04-10T13:22:33 IST" name="Default test" finished-at="2025-04-10T13:22:38 IST" duration-ms="5284">
       <class name="api_Test.CreateBooking">
-        <test-method signature="createBooking(org.testng.ITestContext)[pri:1, instance:api_Test.CreateBooking@217ed35e]" started-at="2025-04-08T09:59:04 IST" name="createBooking" finished-at="2025-04-08T09:59:09 IST" duration-ms="4692" status="FAIL">
+        <test-method signature="createBooking(org.testng.ITestContext)[pri:1, instance:api_Test.CreateBooking@217ed35e]" started-at="2025-04-10T13:22:33 IST" name="createBooking" finished-at="2025-04-10T13:22:38 IST" duration-ms="5226" status="FAIL">
           <params>
             <param index="0">
               <value>
