@@ -11,6 +11,7 @@ import java.util.Properties;
 import org.hamcrest.Matchers;
 import org.testng.annotations.BeforeTest;
 
+import app_payload.AdminCredentialsPayload;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
@@ -53,7 +54,7 @@ public class baseComponent {
 
 	public static String getToken() throws IOException {
 		request = given().spec(baseComponent.RequestSpecification())
-				.body("{\r\n" + "    \"username\" : \"admin\",\r\n" + "    \"password\" : \"password123\"\r\n" + "}");
+				.body(AdminCredentialsPayload.credentialsPayload());
 		Response response = request.post("auth");
 		String token = response.asString();
 		return token;
